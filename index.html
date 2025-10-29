@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zanker | Gestão inteligente de projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <nav class="nav">
+      <div class="logo">Zanker</div>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#solucao">Solução</a></li>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#segmentos">Segmentos</a></li>
+          <li><a href="#jornada">Jornada</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="link" href="#contato">Acessar plataforma</a>
+          <a class="btn btn-primary" href="#contato">Quero uma demo</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-content" data-animate>
+      <div class="hero-text">
+        <span class="badge">ERP para engenharia, arquitetura e construção</span>
+        <h1>Centralize obra, financeiro e BIM em um só painel claro.</h1>
+        <p>O Zanker junta cronograma, custos e comunicação em tempo real para decidir rápido e entregar sem surpresas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato">Agendar demonstração</a>
+          <a class="btn btn-secondary" href="#solucao">Ver como funciona</a>
+          <a class="btn btn-ghost" href="#planos">Conferir planos</a>
+        </div>
+        <ul class="hero-highlights">
+          <li>Implantação guiada em 30 dias</li>
+          <li>Suporte com engenheiros e arquitetos</li>
+          <li>Migração dos seus controles sem dor</li>
+        </ul>
+        <div class="hero-trust">
+          <div class="metric">
+            <strong>R$ 6,1 mi</strong>
+            <span>em obras monitoradas todo mês</span>
+          </div>
+          <div class="metric">
+            <strong>98%</strong>
+            <span>das entregas dentro do prazo</span>
+          </div>
+          <div class="metric">
+            <strong>+32%</strong>
+            <span>de margem recuperada em 6 meses</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-showcase" aria-label="Simulador de ROI do Zanker">
+          <header class="showcase-header">
+            <span class="chip">Simulador de ROI</span>
+            <button type="button" class="showcase-cta">Projetar obra</button>
+          </header>
+          <div class="showcase-viewport">
+            <article class="showcase-slide is-active" data-theme="violet">
+              <div class="showcase-image" role="img" aria-label="Dashboard com curva S e margens previstas"></div>
+              <div class="showcase-details">
+                <div>
+                  <span>Margem prevista</span>
+                  <strong>+14,2%</strong>
+                </div>
+                <div>
+                  <span>Curva S</span>
+                  <strong>Entrega 23/09</strong>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-slide" data-theme="cyan">
+              <div class="showcase-image" role="img" aria-label="Tela de compras com recomendações automáticas"></div>
+              <div class="showcase-details">
+                <div>
+                  <span>Compras otimizadas</span>
+                  <strong>R$ 128 mil</strong>
+                </div>
+                <div>
+                  <span>Economia potencial</span>
+                  <strong>18%</strong>
+                </div>
+              </div>
+            </article>
+            <article class="showcase-slide" data-theme="amber">
+              <div class="showcase-image" role="img" aria-label="Kanban de obra e tarefas em campo"></div>
+              <div class="showcase-details">
+                <div>
+                  <span>Checklists concluídos</span>
+                  <strong>94%</strong>
+                </div>
+                <div>
+                  <span>Riscos críticos</span>
+                  <strong>2 pendentes</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+          <footer class="showcase-footer">
+            <div>
+              <small>ROI estimado em</small>
+              <strong>5,6 meses</strong>
+            </div>
+            <div>
+              <small>Economia anual</small>
+              <strong>R$ 812 mil</strong>
+            </div>
+          </footer>
+        </div>
+        <div class="pulse-card floating" aria-hidden="true">
+          <span>Alerta inteligente</span>
+          <strong>Compra de aço acima do previsto em 14%</strong>
+          <p>Reprograme o pacote e simule impacto no fluxo de caixa antes de aprovar.</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span class="scroll-dot"></span>
+      Role para explorar
+    </div>
+  </header>
+
+  <section class="partners" aria-label="Empresas que confiam no Zanker" data-animate>
+    <div class="container">
+      <p>Equipes de engenharia, arquitetura e construção confiam no Zanker</p>
+    </div>
+    <div class="logos-marquee" role="presentation">
+      <div class="marquee-track">
+        <span>Construtora Ápice</span>
+        <span>Studio Planar</span>
+        <span>Atlas Engenharia</span>
+        <span>BlueCore Obras</span>
+        <span>OrbitOne Projetos</span>
+        <span>Grupo Laterza</span>
+        <span>Obra Nexo</span>
+      </div>
+      <div class="marquee-track" aria-hidden="true">
+        <span>Construtora Ápice</span>
+        <span>Studio Planar</span>
+        <span>Atlas Engenharia</span>
+        <span>BlueCore Obras</span>
+        <span>OrbitOne Projetos</span>
+        <span>Grupo Laterza</span>
+        <span>Obra Nexo</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-gradient" id="solucao" data-animate>
+    <div class="container grid-2">
+      <div>
+        <span class="section-label">Visão unificada</span>
+        <h2>Um lugar para decidir sobre obra, equipe e dinheiro.</h2>
+        <p>Reúna cronogramas, contratos e custos sem planilhas soltas. O Zanker mostra riscos cedo e avisa quem precisa agir.</p>
+        <ul class="feature-list">
+          <li><strong>Painéis ao vivo:</strong> físico x financeiro com alertas automáticos.</li>
+          <li><strong>Fluxos simples:</strong> aprovações, medições e compras padronizadas.</li>
+          <li><strong>Conversa organizada:</strong> histórico entre campo, escritório e cliente.</li>
+        </ul>
+        <div class="section-cta">
+          <a class="btn btn-primary" href="#contato">Quero ver na prática</a>
+          <a class="btn btn-ghost" href="#planos">Comparar planos</a>
+        </div>
+      </div>
+      <div class="cards">
+        <article class="card glass-card" data-parallax>
+          <h3>Financeiro vivo</h3>
+          <p>Veja previsto, gasto e contratos por obra em tempo real.</p>
+        </article>
+        <article class="card glass-card" data-parallax>
+          <h3>Execução conectada</h3>
+          <p>Distribua tarefas e checklists com alertas simples para quem precisa agir.</p>
+        </article>
+        <article class="card glass-card" data-parallax>
+          <h3>Visão estratégica</h3>
+          <p>Gere relatórios claros para sócios e clientes com poucos cliques.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-bright" id="funcionalidades" data-animate>
+    <div class="container">
+      <span class="section-label">Funcionalidades chave</span>
+      <h2>Todo o ciclo da obra em um fluxo contínuo</h2>
+      <div class="modules-grid compact">
+        <article class="module-card">
+          <h3>Planejamento &amp; BIM</h3>
+          <p>Importe orçamentos, modelos e cronogramas e acompanhe físico x financeiro juntos.</p>
+        </article>
+        <article class="module-card">
+          <h3>Compras e fornecedores</h3>
+          <p>Controle pedidos, contratos e reajustes com sugestões automáticas de compra.</p>
+        </article>
+        <article class="module-card">
+          <h3>Times em campo</h3>
+          <p>Execute checklists, fotos e RDOs no celular, mesmo sem internet.</p>
+        </article>
+        <article class="module-card">
+          <h3>BI &amp; previsões</h3>
+          <p>Simule margem, fluxo de caixa e produtividade com indicadores confiáveis.</p>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a class="btn btn-secondary" href="#contato">Falar com especialista</a>
+        <a class="btn btn-ghost" href="#faq">Ver dúvidas frequentes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-ink" id="segmentos" data-animate>
+    <div class="container">
+      <span class="section-label">Para quem é o Zanker</span>
+      <h2>Fala direto com a sua operação.</h2>
+      <div class="persona-grid">
+        <article class="persona-card">
+          <div class="persona-icon" aria-hidden="true">🏗️</div>
+          <h3>Construtoras</h3>
+          <p>Controle curva S, contratos e empreiteiros em um painel simples que evita estouros.</p>
+          <ul>
+            <li>Alertas de margem por obra</li>
+            <li>Integração direta com ERP financeiro</li>
+            <li>Comparativo rápido de fornecedores</li>
+          </ul>
+        </article>
+        <article class="persona-card">
+          <div class="persona-icon" aria-hidden="true">📐</div>
+          <h3>Escritórios de engenharia</h3>
+          <p>Padronize projetos, contratos e entregas técnicas com visibilidade de horas.</p>
+          <ul>
+            <li>Templates de laudos e memoriais</li>
+            <li>Capacidade do time em tempo real</li>
+            <li>Portal do cliente com aprovações digitais</li>
+          </ul>
+        </article>
+        <article class="persona-card">
+          <div class="persona-icon" aria-hidden="true">🏢</div>
+          <h3>Arquitetos e incorporadoras</h3>
+          <p>Integre projeto e execução com fornecedores e padrão de acabamento controlados.</p>
+          <ul>
+            <li>Controle de revisões e versionamento</li>
+            <li>Checklists fotográficos do canteiro</li>
+            <li>Indicadores de satisfação do cliente final</li>
+          </ul>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a class="btn btn-secondary" href="#contato">Quero conversar com o time</a>
+        <a class="btn btn-ghost" href="#planos">Explorar planos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-bright wave-section" id="jornada" data-animate>
+    <div class="container">
+      <span class="section-label">Jornada de valor</span>
+      <h2>Implantação guiada com passos simples.</h2>
+      <div class="journey-layout">
+        <ol class="journey-timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <span class="icon">🔍</span>
+              <span class="line"></span>
+            </div>
+            <div class="timeline-content">
+              <h3>Diagnóstico imersivo</h3>
+              <p>Mapeamos processos e migramos seus dados para liberar os primeiros dashboards.</p>
+              <div class="timeline-media" aria-hidden="true">
+                <span>Checklist de processos</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Inventário dos controles atuais</li>
+                <li>Riscos urgentes priorizados</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <span class="icon">🚀</span>
+              <span class="line"></span>
+            </div>
+            <div class="timeline-content">
+              <h3>Go-live em 30 dias</h3>
+              <p>Configuramos fluxos, acessos e integrações para sua operação rodar em 30 dias.</p>
+              <div class="timeline-media" aria-hidden="true">
+                <span>Visão cockpit</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Treinamentos por perfil</li>
+                <li>Indicadores críticos configurados</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <span class="icon">📈</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Sucesso contínuo</h3>
+              <p>Acompanhamos métricas, sugerimos automações e evoluímos fluxos conforme sua operação cresce.</p>
+              <div class="timeline-media" aria-hidden="true">
+                <span>Painel de evolução</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Revisões estratégicas trimestrais</li>
+                <li>Playbooks para novas obras</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="section-cta">
+        <a class="btn btn-primary" href="#contato">Agendar conversa guiada</a>
+        <a class="btn btn-ghost" href="#resultados">Ver números reais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-midnight" id="resultados" data-animate>
+    <div class="container grid-2">
+      <div>
+        <span class="section-label">Resultados comprovados</span>
+        <h2>Resultados claros para obra e escritório.</h2>
+        <p>Com tudo no mesmo cockpit, você decide rápido, evita surpresas e assume projetos maiores com confiança.</p>
+        <div class="case-stats dynamic">
+          <div>
+            <strong class="counter" data-counter data-target="45" data-suffix="%">0</strong>
+            <span>menos tempo em aprovações</span>
+          </div>
+          <div>
+            <strong class="counter" data-counter data-target="2.3" data-decimals="1" data-suffix="x">0</strong>
+            <span>mais obras dentro do orçamento</span>
+          </div>
+          <div>
+            <strong class="counter" data-counter data-target="12" data-suffix="h">0</strong>
+            <span>economizadas por semana em relatórios</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          “Implementamos o Zanker em cinco canteiros e recuperamos 18% de margem em seis meses. A diretoria hoje acompanha curva S em tempo real.”
+        </blockquote>
+        <cite>
+          <strong>Ana Rodrigues</strong>
+          <span>COO, Construtora NovaTech</span>
+        </cite>
+        <div class="testimonial-case">
+          <h4>Case: Retrofit corporativo Nova sede Aurora</h4>
+          <ul>
+            <li>R$ 48 mi gerenciados no Zanker</li>
+            <li>Redução de 27% em aditivos emergenciais</li>
+            <li>Satisfação do cliente final: 9,4/10</li>
+          </ul>
+          <a class="link" href="#contato">Quero ver o estudo completo</a>
+        </div>
+      </div>
+    </div>
+    <div class="section-cta">
+      <a class="btn btn-secondary" href="#contato">Quero falar com vendas</a>
+      <a class="btn btn-ghost" href="#planos">Ver planos completos</a>
+    </div>
+  </section>
+
+  <section class="section section-bright pricing-section" id="planos" data-animate>
+    <div class="container">
+      <span class="section-label">Planos flexíveis</span>
+      <h2>Escolha o plano ideal para a sua operação</h2>
+      <div class="pricing-controls">
+        <span data-toggle-label="monthly" class="active">Mensal</span>
+        <label class="switch">
+          <input type="checkbox" id="billing-toggle" aria-label="Alternar para cobrança anual">
+          <span class="slider"></span>
+        </label>
+        <span data-toggle-label="annual">Anual <small>-15%</small></span>
+      </div>
+      <div class="pricing">
+        <article class="pricing-card" data-monthly="690" data-annual="587" data-monthly-note="Faturado mês a mês" data-annual-note="12x de R$ 587 (economia anual de R$ 1.236)">
+          <h3>Essencial</h3>
+          <p>Para escritórios que querem padronizar projetos e controlar o financeiro básico.</p>
+          <div class="value-meter" aria-hidden="true"><span style="--fill:45%"></span></div>
+          <p class="price"><span class="currency">R$</span> <strong class="price-value">690</strong> <small class="price-period">/ mês</small></p>
+          <p class="price-note">Faturado mês a mês</p>
+          <ul>
+            <li>Até 25 usuários</li>
+            <li>Gestão de obras e tarefas core</li>
+            <li>Dashboards padrões e alertas básicos</li>
+            <li>Suporte em horário comercial</li>
+          </ul>
+          <a class="btn btn-secondary" href="#contato">Começar</a>
+        </article>
+        <article class="pricing-card highlighted" data-monthly="1490" data-annual="1266" data-monthly-note="Mensal com cancelamento flexível" data-annual-note="12x de R$ 1.266 (economia anual de R$ 2.688)">
+          <div class="badge">Mais popular</div>
+          <h3>Performance</h3>
+          <p>Para construtoras que conectam campo, engenharia e diretoria em tempo real.</p>
+          <div class="value-meter" aria-hidden="true"><span style="--fill:72%"></span></div>
+          <p class="price"><span class="currency">R$</span> <strong class="price-value">1.490</strong> <small class="price-period">/ mês</small></p>
+          <p class="price-note">Mensal com cancelamento flexível</p>
+          <ul>
+            <li>Usuários ilimitados</li>
+            <li>Workflows avançados e aprovações</li>
+            <li>BI com indicadores customizáveis</li>
+            <li>Integrações com ERP e CRM</li>
+          </ul>
+          <a class="btn btn-primary" href="#contato">Agendar conversa</a>
+        </article>
+        <article class="pricing-card" data-monthly="2490" data-annual="2116" data-monthly-note="Mensal com gerente dedicado" data-annual-note="12x de R$ 2.116 (economia anual de R$ 4.488)">
+          <h3>Enterprise</h3>
+          <p>Para grupos que pedem governança, integrações profundas e suporte dedicado.</p>
+          <div class="value-meter" aria-hidden="true"><span style="--fill:92%"></span></div>
+          <p class="price"><span class="currency">R$</span> <strong class="price-value">2.490</strong> <small class="price-period">/ mês</small></p>
+          <p class="price-note">Mensal com gerente dedicado</p>
+          <ul>
+            <li>SSO, governança e auditoria</li>
+            <li>Integrações e APIs ilimitadas</li>
+            <li>SLA 24/7 e gerente técnico dedicado</li>
+            <li>Programa de adoção com squads e QBRs</li>
+          </ul>
+          <a class="btn btn-secondary" href="#contato">Falar com vendas</a>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a class="btn btn-primary" href="#contato">Falar com especialista</a>
+        <a class="btn btn-ghost" href="#faq">Tirar dúvidas</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-ink soft-divider" id="faq" data-animate>
+    <div class="container">
+      <span class="section-label">FAQ</span>
+      <h2>Perguntas frequentes</h2>
+      <div class="faq-list">
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Como funciona a implantação do Zanker?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Realizamos diagnóstico, configuramos fluxos personalizados e treinamos cada time com foco no dia a dia deles.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Quais integrações estão disponíveis?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Conectamos ERPs financeiros, CRMs, ferramentas de comunicação e BI como Power BI e Tableau por meio de APIs abertas.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            É possível personalizar os dashboards?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim, você cria dashboards com filtros por obra, centro de custo e fase, compartilhando com quem precisa acompanhar.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            O suporte é em português?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            <p>Equipe dedicada em português e inglês via chat, e-mail e reuniões estratégicas com SLA aderente ao seu negócio.</p>
+          </div>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a class="btn btn-secondary" href="#contato">Preciso de ajuda agora</a>
+        <a class="btn btn-ghost" href="#inicio">Voltar ao topo</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-gradient cta" id="contato" data-animate>
+    <div class="container">
+      <div class="cta-content">
+        <h2>Receba um diagnóstico gratuito da sua operação</h2>
+        <p>Mostramos como o Zanker controla custos, prazos e comunicação em escritórios e canteiros — com um plano de ação em até 48h.</p>
+        <ul class="cta-perks">
+          <li>+120 times já passaram pelo diagnóstico Zanker</li>
+          <li>Canal direto no WhatsApp durante a avaliação</li>
+        </ul>
+      </div>
+      <form class="cta-form">
+        <div class="form-group">
+          <label for="name">Nome completo</label>
+          <input id="name" type="text" name="name" placeholder="Seu nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail corporativo</label>
+          <input id="email" type="email" name="email" placeholder="voce@empresa.com" required>
+        </div>
+        <div class="form-group">
+          <label for="company">Empresa</label>
+          <input id="company" type="text" name="company" placeholder="Nome da empresa" required>
+        </div>
+        <div class="form-group">
+          <label for="team-size">Tamanho do time</label>
+          <select id="team-size" name="team-size">
+            <option value="">Selecione</option>
+            <option>Até 20 pessoas</option>
+            <option>21-50 pessoas</option>
+            <option>51-200 pessoas</option>
+            <option>Mais de 200 pessoas</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Quero uma demonstração</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Zanker</div>
+        <p>ERP brasileiro para construtoras, engenheiros e arquitetos entregarem projetos com margem e previsibilidade.</p>
+        <div class="footer-support">
+          <span>Suporte humano: seg-sex 8h às 19h</span>
+          <span>WhatsApp exclusivo para clientes</span>
+        </div>
+      </div>
+      <div>
+        <h4>Produto</h4>
+        <ul>
+          <li><a href="#solucao">Visão geral</a></li>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#segmentos">Segmentos</a></li>
+          <li><a href="#jornada">Jornada</a></li>
+          <li><a href="#planos">Planos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fale com a gente</h4>
+        <ul>
+          <li><a href="mailto:contato@zanker.com">contato@zanker.com</a></li>
+          <li><a href="tel:+551199999999">+55 11 99999-9999</a></li>
+          <li><a href="#inicio">Voltar ao topo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Zanker. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Voltar ao topo">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
